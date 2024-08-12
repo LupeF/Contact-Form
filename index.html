@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<main>
+  <form action="">
+    <h2>Contact Us</h2>
+
+    <label for="">First name:
+      <input type="text">
+    </label>
+    <!-- This field is required -->
+
+    <label for="">Last Name: 
+      <input type="text">
+    </label>
+    <!-- This field is required -->
+    <label for="email">Email: 
+      <input type="email">
+    </label>
+    <!-- Please enter a valid email address -->
+    <!-- This field is required -->
+    <label for="">Query Type 
+      <div class="flex">
+          <input type="radio" name="" id="">
+          <span>General Enquiry</span>
+      </div>
+      <div class="flex">
+        <input type="radio" name="" id="">
+        <span>Support Request</span> 
+      </div>
+    </label>
+   <!-- Please select a query type  -->
+
+    <label for="">Message</label>
+    <textarea name="" id="" rows="8" cols="8"></textarea>
+      <!-- This field is required -->
+    <div class="flex consent">  
+      <input type="checkbox" name="" id=""> 
+      <p>I consent to being contacted by the team</p>
+    </div>
+    <!-- To submit this form, please consent to being contacted -->
+    <button>Submit</button>
+  </form>
+</main>
+<!-- 
+  Message Sent!
+  Thanks for completing the form. We'll be in touch soon! -->
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>

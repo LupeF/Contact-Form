@@ -1,0 +1,61 @@
+body {
+  margin: 1em auto;
+  width: 90%;
+  background-color: #dff1e7;
+}
+
+button {
+  background-color: Green 200 lighter;
+}
+
+main {
+  padding-top: 0.5em;
+}
+
+form {
+  border-radius: 10px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  font-size: small;
+}
+form h2 {
+  margin-top: 0;
+}
+form input {
+  margin: 8px 0 1em;
+  border-radius: 5px;
+  font-size: x-large;
+  border: 0.5px solid #2b4246;
+}
+form .flex {
+  padding: 0.5em;
+  margin-top: 8px;
+  border: solid 1px black;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+form .flex input {
+  margin: 0;
+  margin-left: 0.5em;
+}
+form .flex span {
+  padding-left: 1em;
+}
+form .flex p {
+  padding-left: 1em;
+}
+form .consent {
+  border: none;
+}
+form button {
+  padding: 1em;
+  border-radius: 5px;
+  background-color: #0c7d69;
+  color: white;
+  border: none;
+}
+
+/*# sourceMappingURL=style.css.map */
