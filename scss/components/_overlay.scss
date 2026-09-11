@@ -1,0 +1,27 @@
+#overlay-container{
+    background:hsl(187, 24%, 22%);
+    color:white;
+    border-radius: 10px;
+    max-width: fit-content;
+    margin: 1rem auto;
+    position:fixed;
+    top: 0;;
+    left: 0;
+    right:0;
+    display: none;
+    #overlay{
+        padding: 2rem;
+        p {
+            margin-top: 0;
+        }
+    }
+    #success-header{
+        display:flex;
+        h3{
+            margin-left: .5rem;
+        }
+        
+    
+    }
+
+}

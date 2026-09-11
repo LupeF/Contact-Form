@@ -20,7 +20,7 @@ The designs were created to the following widths:
 ### Neutral
 
 - White: hsl(0, 0%, 100%)
-- Grey 500 (medium): hsl(186, 15%, 59%)
+- Grey 500 (medium): 
 - Grey 900 (darker): hsl(187, 24%, 22%)
 
 ## Typography

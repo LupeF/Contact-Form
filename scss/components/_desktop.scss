@@ -1,0 +1,48 @@
+body{
+    @media(min-width:768px){
+        display: grid;
+        place-content: center;
+        // height: 100vh;
+        main {
+            width: 700px;
+            margin: auto;
+          
+            .form-flex{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 16px;
+                font-size: initial;  
+            }
+            label{
+                margin-top: 1em;
+                // font-size: 1.5rem;
+                display: flex;
+                flex-direction: column;
+            }   
+        }
+        #text-Area {
+            margin-top: 1em;
+        }
+        .consent {
+            display: flex;
+            padding: .5rem;
+            flex-wrap: wrap;
+            p {
+                order: 2;
+                font-size: 12px;
+                padding-bottom:0;
+            }
+            input {
+                width: 25px;
+                margin-right: 1rem;
+            }
+        }
+        .flex:not(.consent):hover,
+        input:not([type="checkbox"]):hover,
+        textarea:hover {
+            cursor: pointer;
+            border:  solid 2px  hsl(169, 82%, 27%);
+            
+        }
+    }
+}
