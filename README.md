@@ -16,8 +16,6 @@ Users should be able to:
 - Solution URL: https://github.com/LupeF/Contact-Form
 - Live Site URL: https://lupef.github.io/Contact-Form/
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
